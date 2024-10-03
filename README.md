@@ -11,4 +11,4 @@ General Process:
     +Additions
         1 fileexplorer (IN VSCODE), add folder OR file
         2 stage changes
-        3  
+        3 commit
