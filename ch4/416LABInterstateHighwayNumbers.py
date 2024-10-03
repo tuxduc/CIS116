@@ -1,4 +1,4 @@
-highway_number = int(input())
+highway_number = int(input('Enter some stuff:'))
 
 #if any below are true, give invalid and stop
 if highway_number == 0:
