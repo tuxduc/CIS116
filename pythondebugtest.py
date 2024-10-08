@@ -1,8 +1,0 @@
-print('Hello Quynn!!')
-print(1*8)
-print(1123*8)
-print('deez nuts')
-print('Hello Quynn!!')
-print(1*8)
-print(1123*8)
-print('deez nuts')
