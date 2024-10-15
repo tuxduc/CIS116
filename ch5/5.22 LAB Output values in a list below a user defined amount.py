@@ -1,11 +1,16 @@
 numlist = []
-numQty = numlist[0]
+numQty = int(input())
 
 for val in range(numQty):
-    numlist.append(int(input))
+    val = int(input())
+    numlist.append(val)
 
 numThreshold = int(input())
 
 for x in numlist:
     if x <= numThreshold:
         print(x, end=',')
+
+'''
+VERY GOOD! :)
+'''
