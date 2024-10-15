@@ -11,12 +11,6 @@ then the output is:
 ereht olleH
 yeH
 '''
-userTxt = input()
+'''
 
-while userTxt not ('Done' or 'done' or 'd'):
-
-    userTxt = input() [::-1]
-    print(userTxt)
-    continue
-else:
-    exit
+'''
