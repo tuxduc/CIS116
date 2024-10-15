@@ -11,8 +11,12 @@ then the output is:
 ereht olleH
 yeH
 '''
+userTxt = input()
 
-userTxt = input() [::-1]
+while userTxt not ('Done' or 'done' or 'd'):
 
-print(userTxt)
-
+    userTxt = input() [::-1]
+    print(userTxt)
+    continue
+else:
+    exit
