@@ -11,6 +11,23 @@ then the output is:
 ereht olleH
 yeH
 '''
-'''
+userTxt = input()
+exitTxt = ['Done', 'done', 'd']
 
+while userTxt not in exitTxt:
+    print(userTxt[::-1])
+    userTxt = input()
+    continue
+else:
+    print('Goodbye!')
+    exit
+
+'''
+atmpt 1:
+if userTxt in exitTxt:
+    print('goodbye!')
+    exit
+else:
+    print(userTxt)
+    continue
 '''
