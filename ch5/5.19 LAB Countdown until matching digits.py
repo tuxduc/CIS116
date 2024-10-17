@@ -1,0 +1,1 @@
+userInt = int(input())
