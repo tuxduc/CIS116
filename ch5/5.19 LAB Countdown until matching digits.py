@@ -1,16 +1,16 @@
 userInt = int(input())
 intToStr = str(userInt)
-#if 11 <= userInt <= 99:
 
-# print(intToStr[0]) we can index the str
+if 11 > userInt or userInt > 99:
+    print('Input must be 11-99')
+else:
+    print(userInt)
+while (userInt % 11 != 0) and 11 <= userInt <= 99:
+    userInt -= 1
+    print(userInt)
+else:
+    exit
 
-#for x in range(len(intToStr)):
-while 11 <= userInt <= 99:
-    if intToStr[0] == intToStr[1]:
-        exit()
-    else:
-        userInt += 1
-        print(userInt)
 '''
 take the integer
 
