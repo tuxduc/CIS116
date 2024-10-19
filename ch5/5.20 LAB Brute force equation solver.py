@@ -14,12 +14,13 @@ y= 0
 #eq1 = a*x + b*y == c
 #eq2 = d*x + e*y == f
 
-for x in range(-10,10):
-    for y in range(-10,10):
-        if a*x + b*y == c and d*x + e*y:
+check = False
+
+for x in range(-10,10,1):
+    for y in range(-10,10,1):
+        if a*x + b*y == c and d*x + e*y == f:
          check = True
          print(f'x = {x} , y = {y}')
-         break
 
 if check == False:
     print('There is no solution')
