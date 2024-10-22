@@ -1,4 +1,5 @@
-numList =[int(input()), int(input()), int(input()), int(input()), int(input()), int(input())]
+#numList =[int(input()), int(input()), int(input()), int(input()), int(input()), int(input())]
+numList = []
 max= 0
 min = 100
 
@@ -8,6 +9,14 @@ min = 100
 #   if x < min
 #       min = x
 # print(f'{min} and {max}')
+userinput = int(input())
+
+while userinput != 0:
+        numList.append(userinput)
+else:
+    break
+
+
 for x in numList:
    if x > max:
        max = x
