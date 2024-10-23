@@ -1,5 +1,4 @@
 import math
-
 list =[]
 # Define your function here.
 def max_magnitude(int1,int2,int3):
