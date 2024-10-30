@@ -1,3 +1,11 @@
+myStr= 'dr awkward'
+
+print(myStr)
+print(myStr[::-1])
+
+
+'''
+#infinite loop with input
 x = int(input())
 
 while x != 0:
@@ -5,3 +13,4 @@ while x != 0:
   x = int(input())
 else:
   print('goodbye!')
+'''
