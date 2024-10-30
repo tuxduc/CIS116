@@ -1,6 +1,7 @@
-def my_function(x):
-  return x[::-1]
+x = int(input())
 
-mytxt = my_function("I wonder how this text looks like backwards")
-
-print(mytxt)
+while x != 0:
+  print('hey that\'s cool!')
+  x = int(input())
+else:
+  print('goodbye!')
