@@ -1,16 +1,17 @@
-myStr= 'dr awkward'
+# Read input and split input into tokens
+tokens = input().split()
 
-print(myStr)
-print(myStr[::-1])
+temperature_samples = []
+for token in tokens:
+    temperature_samples.append(int(token))
 
+print(f'All data: {temperature_samples}')
 
-'''
-#infinite loop with input
-x = int(input())
+''' Your code goes here '''
+sum_good= 0
+for pos,value in enumerate(temperature_samples):
+    if pos%2 != 0 and value<=50:
+        print(f'Index{pos}: value is{value}')
+        sum_good += value
 
-while x != 0:
-  print('hey that\'s cool!')
-  x = int(input())
-else:
-  print('goodbye!')
-'''
+print(f'Sum of selected elements is: {sum_good}')
